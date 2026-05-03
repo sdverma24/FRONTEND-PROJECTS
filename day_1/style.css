@@ -2,22 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'helvetica neue';
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-html,
 body {
   height: 100vh;
-  margin: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background : linear-gradient(to right,blue,red);
+  align-items: center;
+  background: linear-gradient(to right, blue, red);
 }
-
-.card{
-    height:800px;
-    width:400px;
-    background-color: black;
+.card {
+  width: 420px;
   padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  text-align: center;
+}
+input{
+    padding: 15px;
+    border-radius: 2%;
+    outline: none;
+}
+.bt{
+    padding: 10px;
+    border-radius: 50%;
+    outline: none;
+    cursor:pointer;
+}
+.weather img {
+  width: 80px;
+  margin-top: 20px;
 }
